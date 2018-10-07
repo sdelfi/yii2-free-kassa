@@ -74,18 +74,19 @@ class Merchant extends Component
 
     /** @var string Default interface language, possible values - ru / en */
     public $defaultLanguage = 'ru';
-    
+
     /**
      * @var integer Default suggested currencyID, use only FreeKassa IDs
      */
     public $defaultCurrency;
-    
+
     /**
      * Array of Free Kassa servers IPs
      * Set to null, if you want to prevent IP check
      * @var array
      */
-    public $systemIPs = ['136.243.38.147', '136.243.38.149', '136.243.38.150', '136.243.38.151', '136.243.38.189'];
+    public $systemIPs = ['136.243.38.147', '136.243.38.149', '136.243.38.150', '136.243.38.151',
+        '136.243.38.189', '88.198.88.98', '136.243.38.108'];
 
     /** @var string used for creating the hash to send merchant form (in API doc see 'secret1') */
     public $merchantFormSecret;
