@@ -3,16 +3,16 @@
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  */
 
-namespace yarcode\freekassa\actions;
+namespace sdelfi\freekassa\actions;
 
-use yarcode\freekassa\Merchant;
+use sdelfi\freekassa\Merchant;
 use yii\base\Action;
 use yii\base\InvalidConfigException;
 use yii\web\Response;
 
 /**
  * Class ResultAction
- * @package yarcode\freekassa\actions
+ * @package sdelfi\freekassa\actions
  */
 class ResultAction extends Action
 {

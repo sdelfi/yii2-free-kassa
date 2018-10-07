@@ -1,5 +1,5 @@
 {
-  "name": "yarcode/yii2-free-kassa",
+  "name": "sdelfi/yii2-free-kassa",
   "description": "FreeKassa component for Yii2",
   "type": "yii2-extension",
   "license": "MIT",
@@ -14,6 +14,12 @@
   "homepage": "http://yiidreamteam.com/yii2/free-kassa",
   "authors": [
     {
+      "name": "Stanislav Salnikov",
+      "email": "delfi89@gmail.com",
+      "homepage": "https://ittricks.ru",
+      "role": "Developer"
+    },
+    {
       "name": "Valentin Konusov",
       "email": "rlng-krsk@yandex.ru",
       "homepage": "http://yiidreamteam.com/team/valentin",
@@ -21,8 +27,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/yarcode/yii2-free-kassa/issues",
-    "source": "https://github.com/yarcode/yii2-free-kassa"
+    "issues": "https://github.com/sdelfi/yii2-free-kassa/issues",
+    "source": "https://github.com/sdelfi/yii2-free-kassa"
   },
   "minimum-stability": "stable",
   "require": {
@@ -32,7 +38,7 @@
   },
   "autoload": {
     "psr-4": {
-      "yarcode\\freekassa\\": "./src"
+      "sdelfi\\freekassa\\": "./src"
     }
   }
 }

@@ -8,11 +8,11 @@ The preferred way to install this extension is through [composer](http://getcomp
 
 Either run
 
-    php composer.phar require --prefer-dist yarcode/yii2-free-kassa "~1.0"
+    php composer.phar require --prefer-dist sdelfi/yii2-free-kassa "~1.0"
 
 or add
 
-    "yarcode/yii2-free-kassa": "~1.0"
+    "sdelfi/yii2-free-kassa": "~1.0"
 
 to the `require` section of your composer.json.
 
@@ -23,7 +23,7 @@ to the `require` section of your composer.json.
 Configure `freeKassa` component in the `components` section of your application.
 
     'freeKassa' => [
-        'class' => '\yarcode\freekassa\Merchant',
+        'class' => '\sdelfi\freekassa\Merchant',
         'merchantId' => 'YOUR_MERCHANT_ID',
         'merchantFormSecret' => 'SECRET_1',
         'checkDataSecret' => 'SECRET_2',
@@ -36,7 +36,7 @@ Configure `freeKassa` component in the `components` section of your application.
 To redirect user to PerfectMoney site you need to create the page with RedirectForm widget.
 User will redirected right after page load.
 
-    <?= \yarcode\freekassa\RedirectForm::widget([
+    <?= \sdelfi\freekassa\RedirectForm::widget([
         'message' => 'Redirecting to payment gateway...',
         'api' => Yii::$app->get('freeKassa'),
         'invoiceId' => $invoice->id,
@@ -58,9 +58,9 @@ Sample controller code:
     use yii\helpers\ArrayHelper;
     use yii\helpers\VarDumper;
     use yii\web\Controller;
-    use yarcode\freekassa\actions\ResultAction;
-    use yarcode\freekassa\events\GatewayEvent;
-    use yarcode\freekassa\Merchant;
+    use sdelfi\freekassa\actions\ResultAction;
+    use sdelfi\freekassa\events\GatewayEvent;
+    use sdelfi\freekassa\Merchant;
     
     class PerfectMoneyController extends Controller
     {
@@ -142,6 +142,6 @@ MIT
 ## Links ##
 
 * [Official site](http://yiidreamteam.com/yii2/free-kassa)
-* [Source code on GitHub](https://github.com/yarcode/yii2-free-kassa)
-* [Composer package on Packagist](https://packagist.org/packages/yarcode/yii2-free-kassa)
+* [Source code on GitHub](https://github.com/sdelfi/yii2-free-kassa)
+* [Composer package on Packagist](https://packagist.org/packages/sdelfi/yii2-free-kassa)
 * [FreeKassa service](http://yiidreamteam.com/link/free-kassa)

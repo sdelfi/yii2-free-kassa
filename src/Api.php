@@ -3,7 +3,7 @@
  * @author Valentin Konusov <rlng-krks@yandex.ru>
  */
 
-namespace yarcode\freekassa;
+namespace sdelfi\freekassa;
 
 use GuzzleHttp\Client;
 use yii\base\Component;
@@ -12,7 +12,7 @@ use yii\helpers\Json;
 
 /**
  * Class Api
- * @package yarcode\freekassa
+ * @package sdelfi\freekassa
  */
 class Api extends Component
 {

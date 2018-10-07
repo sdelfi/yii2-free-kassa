@@ -3,7 +3,7 @@
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  */
 
-namespace yarcode\freekassa\events;
+namespace sdelfi\freekassa\events;
 
 use yii\base\Event;
 use yii\db\ActiveRecord;

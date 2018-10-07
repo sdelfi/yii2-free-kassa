@@ -3,7 +3,7 @@
  * @author Valentin Konusov <rlng-krks@yandex.ru>
  */
 
-namespace yarcode\freekassa;
+namespace sdelfi\freekassa;
 
 use GuzzleHttp\Client;
 use yii\base\Component;
@@ -12,11 +12,11 @@ use yii\helpers\Json;
 use yii\helpers\VarDumper;
 use yii\web\ForbiddenHttpException;
 use yii\web\HttpException;
-use yarcode\freekassa\events\GatewayEvent;
+use sdelfi\freekassa\events\GatewayEvent;
 
 /**
  * Class Merchant
- * @package yarcode\freekassa
+ * @package sdelfi\freekassa
  */
 class Merchant extends Component
 {

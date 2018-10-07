@@ -3,14 +3,14 @@
  * @author Valentin Konusov <rlng-krsk@yandex.ru>
  */
 
-namespace yarcode\freekassa;
+namespace sdelfi\freekassa;
 
 use yii\base\Widget;
 use yii\web\View;
 
 /**
  * Class RedirectForm
- * @package yarcode\freekassa
+ * @package sdelfi\freekassa
  */
 class RedirectForm extends Widget
 {
