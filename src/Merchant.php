@@ -20,7 +20,7 @@ use sdelfi\freekassa\events\GatewayEvent;
  */
 class Merchant extends Component
 {
-    const BASE_API_URL = "http://www.free-kassa.ru/api.php";
+    const BASE_API_URL = "https://www.free-kassa.ru/api.php";
 
     const CONFIRMATION_RESPONSE_TEXT = 'YES';
 
@@ -86,7 +86,7 @@ class Merchant extends Component
      * @var array
      */
     public $systemIPs = ['136.243.38.147', '136.243.38.149', '136.243.38.150', '136.243.38.151',
-        '136.243.38.189', '88.198.88.98', '136.243.38.108'];
+        '136.243.38.189', '136.243.38.108'];
 
     /** @var string used for creating the hash to send merchant form (in API doc see 'secret1') */
     public $merchantFormSecret;
