@@ -18,7 +18,7 @@ $this->registerJs("$('#free-kassa-checkout-form').submit();", $this::POS_READY);
 
 <div class="free-kassa-checkout">
     <p><?= $message ?></p>
-    <form id="free-kassa-checkout-form" action="http://www.free-kassa.ru/merchant/cash.php" method="GET">
+    <form id="free-kassa-checkout-form" action="https://www.free-kassa.ru/merchant/cash.php" method="GET">
         <?= \yii\helpers\Html::hiddenInput('m', $api->merchantId) ?>
         <?= \yii\helpers\Html::hiddenInput('oa', $amount) ?>
         <?= \yii\helpers\Html::hiddenInput('o', $invoiceId) ?>
